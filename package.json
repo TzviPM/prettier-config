@@ -1,0 +1,23 @@
+{
+	"name": "@tzvipm.dev/prettier-config",
+	"version": "0.0.1",
+	"description": "Shared Prettier config for my projects",
+	"repository": "tzvipm/prettier-config",
+	"author": {
+		"name": "Tzvi Melamed",
+		"email": "tzvi@melamed.biz",
+		"url": "https://www.tzvipm.dev/"
+	},
+	"scripts": {
+		"test": "true"
+	},
+	"main": "index.json",
+	"files": [
+		"index.json"
+	],
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "^3.0.0"
+	},
+	"prettier": "./index.json"
+}
